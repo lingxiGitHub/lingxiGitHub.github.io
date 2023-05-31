@@ -42,7 +42,7 @@
 
 span.bi.bi-github {
   color: black;
-  width: 30px;
+  /* width: 30px; */
 }
 
 span.bi.bi-link-45deg {
@@ -54,6 +54,7 @@ span.bi.bi-link-45deg {
 p {
   font-size: 16px;
 }
+
 /* end of my change*/
 
 .btn.btn-primary.btn.js-scroll.px-4:hover {
@@ -283,7 +284,7 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 2px black;
   transition: all 500ms ease;
 }
 
@@ -326,7 +327,10 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   box-shadow: 0 0 0 0px #0078ff;
-  display: block;
+  /* display: block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*------/ Owl Carousel /------*/
